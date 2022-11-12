@@ -1,0 +1,2 @@
+export const ADRESSES_REQUEST = "ADRESSES_REQUEST";
+export const ERROR_SAGA = "ERROR_SAGA";

@@ -1,0 +1,49 @@
+@import "~antd/dist/antd.css";
+@import "leaflet/dist/leaflet.css";
+
+.headerLayout {
+  height: 80px !important;
+  background: rgb(186, 185, 185) !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: #fff;
+}
+
+.tableContainer {
+  padding: 15px;
+  height: 80vh;
+  overflow-y: auto;
+  overflow-x: auto;
+}
+
+.mapContainer {
+  margin: 0 auto;
+  padding: 15px;
+  height: 80vh;
+}
+
+.leaflet-container {
+  height: 80vh;
+  width: 100%;
+}
+
+.ant-table-row {
+  cursor: pointer;
+}
+
+.ant-table-row:hover > td {
+  background-color: rgb(186, 185, 185) !important;
+}
+
+.activeRow {
+  background: rgb(186, 185, 185);
+  cursor: pointer;
+}
+
+
+
+
